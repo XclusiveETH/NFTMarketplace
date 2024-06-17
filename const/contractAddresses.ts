@@ -10,3 +10,5 @@ export const RENTNFT_COLLECTION_ADDRESS = "0xD28181261FcC7892338C9a2eF8A8481CD4D
 export const NETWORK=  DchainTestnet;
 
 export const EXPLORER_URL = "https://dchaintestnet-2713017997578000-1.testnet.sagaexplorer.io";
+
+export const GITHUB_URL = "https://github.com/degenbuilder7/DChainAINFTMarketplace"

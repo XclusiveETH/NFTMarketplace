@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import { GITHUB_URL } from "../const/contractAddresses";
 
 /**
  * Landing page with a simple gradient background and a hero asset.
@@ -26,7 +27,7 @@ const Home: NextPage = () => {
           </div>
           <div className={styles.heroAssetFrame}>
             <Image
-              src="/dolphin.png"
+              src="/redbiker.gif"
               width={450}
               height={540}
               alt="Hero asset, NFT marketplace"
@@ -34,7 +35,7 @@ const Home: NextPage = () => {
               className={styles.heroAsset}
             />
             <Image
-              src="/alligator.png"
+              src="/robohorse.gif"
               width={600}
               height={500}
               alt="Prince"
@@ -42,12 +43,12 @@ const Home: NextPage = () => {
               className={styles.gradient}
             />
             <Image
-              src="/sea.png"
+              src="/zebra.gif"
               width={450}
               height={540}
-              alt="Background gradient from red to blue"
+              alt="zebra"
               quality={100}
-              // className={styles.gradient}
+              className={styles.gradient}
             />
           </div>
           <div className={styles.heroBodyContainer}>
@@ -59,7 +60,7 @@ const Home: NextPage = () => {
                 <br />
               </h1>
               <h2>
-                Trade Unique Premium NFT Collections on DCHAIN &aptos;s Premium
+                Trade Unique Premium NFT Collections on DCHAIN &apos;s Premium
                 Marketplace 🌐
               </h2>
               <br />
@@ -78,7 +79,7 @@ const Home: NextPage = () => {
             </Link>
             <Link
               className={styles.secondaryCta}
-              href="https://github.com/kamalbuilds/dchainainftmarketplace"
+              href={GITHUB_URL}
               target="_blank"
             >
               GitHub
