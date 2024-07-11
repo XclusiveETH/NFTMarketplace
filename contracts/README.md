@@ -1,4 +1,6 @@
-Rentable UbitNFTs
+Rentable DChain Gaming NFTs
+
+ERC4907 Renting Contract Description
 
 ERC4907 contract implements the ERC4907 interface. It extends the `ERC721Base` contract and adds functionality for managing users and expiration times for NFTs.
 
